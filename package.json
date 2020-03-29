@@ -1,0 +1,29 @@
+{
+    "name": "@rproenza/deadletterprocessor",
+    "version": "1.0.0",
+    "description": "Package to update email record with DQL data",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "devDependencies": {
+        "@types/aws-sdk": "^2.7.0",
+        "@types/node": "^12.6.8",
+        "@types/aws-lambda": "8.10.46",
+        "aws-sdk": "~2",
+        "typescript": "^3.5.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rproenza86/dead-letter-processor.git"
+    },
+    "keywords": [],
+    "author": "Raul Rodriguez Proenza <raul.r.proenza@gmail.com> (https://github.com/rproenza86)",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/rproenza86/dead-letter-processor/issues"
+    },
+    "homepage": "https://github.com/rproenza86/dead-letter-processor#readme"
+}
